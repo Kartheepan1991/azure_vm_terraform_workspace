@@ -1,0 +1,19 @@
+# Terraform state files (do not commit these)
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/
+
+# Terraform cache directory (provider plugins, etc.)
+.terraform/
+
+# Optional: If your tfvars files contain sensitive information, ignore them too.
+# Otherwise, if you want to version control non-sensitive environment files, remove the following line.
+envs/*.tfvars
+
+# OS generated files (macOS, Windows, etc.)
+.DS_Store
+Thumbs.db
+
+# IDE files (VS Code, IntelliJ, etc.)
+.vscode/
+.idea/
