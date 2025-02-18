@@ -1,0 +1,6 @@
+location              = "East US"
+vnet_address_space    = "10.2.0.0/16"
+subnet_address_prefix = "10.2.1.0/24"
+vm_size               = "Standard_B2ms"
+admin_username        = "adminuser"
+admin_password        = "SecurePassword123!"

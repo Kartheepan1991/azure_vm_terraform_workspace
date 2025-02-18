@@ -8,7 +8,7 @@ terraform.tfstate.d/
 
 # Optional: If your tfvars files contain sensitive information, ignore them too.
 # Otherwise, if you want to version control non-sensitive environment files, remove the following line.
-envs/*.tfvars
+# envs/*.tfvars
 
 # OS generated files (macOS, Windows, etc.)
 .DS_Store
